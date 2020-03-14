@@ -15,5 +15,5 @@ Overview
 ```
 ### Content
  + `./include/*` : head files.
- + `./include/tclap`:  the TCLAP library implemented entirely in headers.
+ + `./include/tclap`:  the TCLAP library implemented entirely in headers
  + `./library`: a user-defined library.
