@@ -1,14 +1,19 @@
 # CMake-TCLAP-proto
 Infrastructure for small course projects using CMake and TCLAP.
 
-# Description
-tree
-.
-├─.vscode
-├─include
-│  └─tclap
-└─library
+## Overview
+    Overview.
 
-./include/*: head files.
-./include/tclap:  The TCLAP library is implemented entirely in headers file.
-./library : user-defined library.
+## Description
+### File directory structure
+```
+  .
+  ├─.vscode
+  ├─include
+  │  └─tclap
+  └─library
+```
+### Content
+ + `./include/*` : head files.
+ + `./include/tclap`:  The TCLAP library is implemented entirely in headers file.
+ + `./library`: user-defined library.
