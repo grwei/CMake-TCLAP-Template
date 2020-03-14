@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
         TCLAP::CmdLine cmd("Command description message", ' ', "0.1", true);
 
         // Define some arguments.
-        TCLAP::SwitchArg AuthorInformationDisplaySwitch("", "author", "display author information", cmd, false);
+        TCLAP::SwitchArg AuthorInformationDisplaySwitch("", "author", "Displays author information and exits. ", cmd, false);
 
         // Parse the argv array.
         cmd.parse(argc, argv);
@@ -32,7 +32,7 @@ int main(int argc, char const *argv[])
     std::cout << sumOfVector(std::vector<double>{1, 2, 3, 4, 5}) << '\n';
     
     // no span, link error: undefine reference to...
-    std::cout << sumOfVector(std::vector<float>{1, 2, 3, 4, 5}) << '\n';
+    // std::cout << sumOfVector(std::vector<float>{1, 2, 3, 4, 5}) << '\n';
     std::cout << std::endl;
 
     return 0;
