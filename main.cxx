@@ -32,7 +32,7 @@ int main(int argc, char const *argv[])
     std::cout << sumOfVector(std::vector<double>{1, 2, 3, 4, 5}) << '\n';
     
     // no span, link error: undefine reference to...
-    // std::cout << sumOfVector(std::vector<float>{1, 2, 3, 4, 5}) << '\n';
+    std::cout << sumOfVector(std::vector<float>{1, 2, 3, 4, 5}) << '\n';
     std::cout << std::endl;
 
     return 0;
