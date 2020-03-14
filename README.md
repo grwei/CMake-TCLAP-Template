@@ -1,10 +1,12 @@
-# CMake-TCLAP-proto
+# CMake-TCLAP-Template
 
 Infrastructure for small course projects using CMake and TCLAP.
 
 ## Overview
 
-- [x] Overview
+- [x] CMakeLists.txt for a user-defined library
+- [x] VS Code Configuration
+- [x] [TCLAP](https://github.com/mirror/tclap) included
 
 ## Description
 
