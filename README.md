@@ -6,7 +6,7 @@ Infrastructure for small course projects using [CMake](https://cmake.org/) and [
 
 - [x] CMakeLists.txt for a user-defined library
 
-- [x] VS Code configuration for [Mingw-w64](https://github.com/mirror/mingw-w64) compiler
+- [x] VS Code configuration for [Mingw-w64](https://github.com/mirror/mingw-w64) compiler in Windows
 
 - [x] [TCLAP](https://github.com/mirror/tclap) included
 
