@@ -1,6 +1,6 @@
 # CMake-TCLAP-Template
 
-Infrastructure for small course projects using CMake and TCLAP.
+Infrastructure for small course projects using [CMake](https://cmake.org/) and [TCLAP](http://tclap.sourceforge.net/).
 
 ## Overview
 
