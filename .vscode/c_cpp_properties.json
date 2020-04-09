@@ -3,12 +3,13 @@
         {
             "name": "Mingw-w64",
             "intelliSenseMode": "gcc-x64",
-            "compilerPath": "D:/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/g++.exe",
+            "compilerPath": "D:\\mingw-w64\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
             "cStandard": "c11",
             "cppStandard": "c++11",
             "includePath": [
                 "${workspaceFolder}/**",
-                "D:/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include"
+                "${workspaceFolder}\\include",
+                "D:\\mingw-w64\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\x86_64-w64-mingw32\\include"
             ],
             "defines": [
                 "_DEBUG",
@@ -19,8 +20,8 @@
             ],
             "browse": {
                 "path": [
-                    "${workspaceFolder}/**",
-                    "D:/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include"
+                    "${workspaceFolder}\\**",
+                    "D:\\mingw-w64\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\x86_64-w64-mingw32\\include"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
